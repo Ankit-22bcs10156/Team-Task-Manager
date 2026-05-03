@@ -1,0 +1,48 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.form-group input,
+.form-group select {
+  /* Inherit global input styles from index.css */
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+  padding: 0.85rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.auth-links {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 1rem;
+}
+
+.auth-links a {
+  color: var(--secondary);
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.auth-links a:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
